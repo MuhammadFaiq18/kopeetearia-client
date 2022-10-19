@@ -22,7 +22,7 @@ function NotFound() {
           <p className="mt-4 mb-8 dark:text-gray-400">
             But dont worry, you can find plenty of other things on our homepage.
           </p>
-          <Link to={"http://localhost:8080/kopeetearia-client/"}>
+          <Link to={"/kopeetearia-client/"}>
             <button className="btn btn-primary mr-2">Back To Homepage</button>
           </Link>
         </div>
