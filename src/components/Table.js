@@ -146,7 +146,7 @@ function Table() {
 
   const getRegularBill = async () => {
     try {
-      const res = await axios.get(`hhttp://localhost:8080/kopeetearia/orders/regular`);
+      const res = await axios.get(`http://localhost:8080/kopeetearia/orders/regular`);
       const data = res.data.data;
 
       setRegularBill(data);
