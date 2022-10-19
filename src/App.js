@@ -8,8 +8,8 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
-          <Route path="/kopeetearia/" element={<Content />} />
-          <Route path="/kopeetearia/*" element={<NotFound />} />
+          <Route path="/kopeetearia-client/" element={<Content />} />
+          <Route path="/kopeetearia-client/*" element={<NotFound />} />
         </Routes>
       </div>
     </Router>
